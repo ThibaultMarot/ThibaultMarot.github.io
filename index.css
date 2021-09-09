@@ -1,5 +1,6 @@
 p {
 	font-family:Arial;
+	color:blueviolet;
 	font-size:16px;
 }
 
@@ -8,8 +9,30 @@ h3 {
 	color:darkred;
 	text-align:center;
 }
+img:hover {transform: rotate(45deg);}
 
 span {
+	margin: 1em;
 	color:#cc0000;
 	font-size:28px;
 }
+h1 {
+	font-family:Arial;
+	color:darkred;
+	text-align:center;
+
+}
+#header {
+	background-color: skyblue;
+	color: #ffffff;
+	border: 3px skyblue;
+	height: 360px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;}
+
+#footer span {
+	border: 5px solid blueviolet;
+    height: 50px;
+	color: black;}
